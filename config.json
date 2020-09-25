@@ -7735,8 +7735,7 @@
   },
   "template": "blankfullscreen",
   "attributes": {
-    "portalUrl": "https://eaglelabs.maps.arcgis.com",
-    "clientId": "zgkD3Py67np1tCij"
+    "portalUrl": "https://eaglelabs.maps.arcgis.com"
   },
   "widgets": {
     "widget_28": {
