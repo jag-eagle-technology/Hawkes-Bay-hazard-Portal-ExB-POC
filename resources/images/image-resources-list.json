@@ -1,0 +1,24 @@
+{
+  "1600989167112": {
+    "originalName": "FillWyI1MDAiLDMzNF0-hazards.jpg",
+    "fileName": "1600989167112.jpg",
+    "size": 80327,
+    "url": "${appResourceUrl}/images/widget_95/1600989167112.jpg",
+    "created": 1600989167112,
+    "resourcesPrefix": "images/widget_95",
+    "referedIds": [],
+    "originId": "1600989167112",
+    "fileFormat": "image/jpeg"
+  },
+  "1600989208048": {
+    "originalName": "HBRCMCDEM_TRANSP.png",
+    "fileName": "1600989208048.png",
+    "size": 57750,
+    "url": "${appResourceUrl}/images/widget_620/1600989208048.png",
+    "created": 1600989208048,
+    "resourcesPrefix": "images/widget_620",
+    "referedIds": [],
+    "originId": "1600989208048",
+    "fileFormat": "image/png"
+  }
+}
