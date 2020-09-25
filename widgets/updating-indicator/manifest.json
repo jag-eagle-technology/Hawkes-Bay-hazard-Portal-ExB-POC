@@ -1,0 +1,19 @@
+{
+  "name": "updating-indicator",
+  "label": "View Updating Indicator",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.1.0",
+  "author": "Joshua Gore - Eagle Technology",
+  "description": "This widget shows a loading indicator when view.updating is true",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 44,
+    "height": 44
+  }
+}

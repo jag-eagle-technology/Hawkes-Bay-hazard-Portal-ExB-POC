@@ -5187,10 +5187,28 @@
               "width": "CUSTOM"
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "95.3090%",
+            "right": 0,
+            "top": "93.9306%",
+            "bottom": 0,
+            "width": "4.9162%",
+            "height": "6.3584%"
+          },
+          "widgetId": "widget_622",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_433": {
@@ -5339,10 +5357,28 @@
               "right": false
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "92.9530%",
+            "right": 0,
+            "top": "91.9261%",
+            "bottom": 0,
+            "width": "7.3826%",
+            "height": "8.4615%"
+          },
+          "widgetId": "widget_622",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_440": {
@@ -5491,10 +5527,28 @@
               "width": "STRETCH"
             }
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "right": "87.6404%",
+            "top": "86.8750%",
+            "bottom": 0,
+            "width": "12.3596%",
+            "height": "13.7500%"
+          },
+          "widgetId": "widget_622",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_447": {
@@ -7731,7 +7785,13 @@
   "mainSizeMode": "LARGE",
   "theme": "themes/dark/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1280,
+        "height": 800
+      }
+    }
   },
   "template": "blankfullscreen",
   "attributes": {
@@ -8843,34 +8903,9 @@
           "canHome": true,
           "canSearch": true
         },
-        "isUseCustomMapState": true,
+        "isUseCustomMapState": false,
         "initialMapDataSourceID": "dataSource_16",
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 1155581.1085775,
-            "targetGeometry": {
-              "spatialReference": {
-                "latestWkid": 3857,
-                "wkid": 102100
-              },
-              "x": 19713463.115997653,
-              "y": -4784881.533622511
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-            },
-            "xmin": 19581227.057064306,
-            "ymin": -4887154.277468071,
-            "xmax": 19845699.174931,
-            "ymax": -4682608.78977695
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        }
+        "initialMapState": null
       },
       "id": "widget_149",
       "layouts": {
@@ -8881,10 +8916,6 @@
         }
       },
       "useDataSources": [
-        {
-          "dataSourceId": "dataSource_15",
-          "mainDataSourceId": "dataSource_15"
-        },
         {
           "dataSourceId": "dataSource_16",
           "mainDataSourceId": "dataSource_16"
@@ -9196,34 +9227,9 @@
           "canHome": true,
           "canSearch": true
         },
-        "isUseCustomMapState": true,
+        "isUseCustomMapState": false,
         "initialMapDataSourceID": "dataSource_17",
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 1155581.1085775,
-            "targetGeometry": {
-              "spatialReference": {
-                "latestWkid": 3857,
-                "wkid": 102100
-              },
-              "x": 19715744.57682211,
-              "y": -4777919.200631342
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-            },
-            "xmin": 19583508.517888762,
-            "ymin": -4880191.9444769025,
-            "xmax": 19847980.635755457,
-            "ymax": -4675646.456785781
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        }
+        "initialMapState": null
       },
       "id": "widget_165",
       "layouts": {
@@ -9234,10 +9240,6 @@
         }
       },
       "useDataSources": [
-        {
-          "dataSourceId": "dataSource_12",
-          "mainDataSourceId": "dataSource_12"
-        },
         {
           "dataSourceId": "dataSource_17",
           "mainDataSourceId": "dataSource_17"
@@ -9959,34 +9961,9 @@
           "canHome": true,
           "canSearch": true
         },
-        "isUseCustomMapState": true,
+        "isUseCustomMapState": false,
         "initialMapDataSourceID": "dataSource_18",
-        "initialMapState": {
-          "viewPoint": {
-            "rotation": 0,
-            "scale": 1155581.1085775,
-            "targetGeometry": {
-              "spatialReference": {
-                "latestWkid": 3857,
-                "wkid": 102100
-              },
-              "x": 19709846.689096898,
-              "y": -4780868.589637532
-            }
-          },
-          "extent": {
-            "spatialReference": {
-              "latestWkid": 3857,
-              "wkid": 102100
-            },
-            "xmin": 19577610.63016355,
-            "ymin": -4883141.3334830925,
-            "xmax": 19842082.748030245,
-            "ymax": -4678595.845791971
-          },
-          "rotation": 0,
-          "viewType": "2d"
-        }
+        "initialMapState": null
       },
       "id": "widget_236",
       "layouts": {
@@ -9997,10 +9974,6 @@
         }
       },
       "useDataSources": [
-        {
-          "dataSourceId": "dataSource_13",
-          "mainDataSourceId": "dataSource_13"
-        },
         {
           "dataSourceId": "dataSource_18",
           "mainDataSourceId": "dataSource_18"
@@ -11251,7 +11224,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_8",
+        "initialMapDataSourceID": "dataSource_21",
         "initialMapState": null
       },
       "id": "widget_406",
@@ -11264,8 +11237,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8"
+          "dataSourceId": "dataSource_21",
+          "mainDataSourceId": "dataSource_21"
         }
       ]
     },
@@ -11733,7 +11706,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_9",
+        "initialMapDataSourceID": "dataSource_22",
         "initialMapState": null
       },
       "id": "widget_434",
@@ -11746,8 +11719,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_9",
-          "mainDataSourceId": "dataSource_9"
+          "dataSourceId": "dataSource_22",
+          "mainDataSourceId": "dataSource_22"
         }
       ]
     },
@@ -12467,7 +12440,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_10",
+        "initialMapDataSourceID": "dataSource_23",
         "initialMapState": null
       },
       "id": "widget_462",
@@ -12480,8 +12453,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_10",
-          "mainDataSourceId": "dataSource_10"
+          "dataSourceId": "dataSource_23",
+          "mainDataSourceId": "dataSource_23"
         }
       ]
     },
@@ -13201,7 +13174,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_14",
+        "initialMapDataSourceID": "dataSource_24",
         "initialMapState": null
       },
       "id": "widget_490",
@@ -13214,8 +13187,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_14",
-          "mainDataSourceId": "dataSource_14"
+          "dataSourceId": "dataSource_24",
+          "mainDataSourceId": "dataSource_24"
         }
       ]
     },
@@ -13935,7 +13908,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_11",
+        "initialMapDataSourceID": "dataSource_25",
         "initialMapState": null
       },
       "id": "widget_518",
@@ -13948,8 +13921,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_11",
-          "mainDataSourceId": "dataSource_11"
+          "dataSourceId": "dataSource_25",
+          "mainDataSourceId": "dataSource_25"
         }
       ]
     },
@@ -14560,7 +14533,7 @@
           "canSearch": true
         },
         "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_6",
+        "initialMapDataSourceID": "dataSource_19",
         "initialMapState": null
       },
       "id": "widget_543",
@@ -14573,8 +14546,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_6",
-          "mainDataSourceId": "dataSource_6"
+          "dataSourceId": "dataSource_19",
+          "mainDataSourceId": "dataSource_19"
         }
       ]
     },
@@ -14676,7 +14649,9 @@
           "canHome": true,
           "canSearch": true
         },
-        "isUseCustomMapState": false
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_20",
+        "initialMapState": null
       },
       "id": "widget_547",
       "layouts": {
@@ -14688,8 +14663,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_7",
-          "mainDataSourceId": "dataSource_7"
+          "dataSourceId": "dataSource_20",
+          "mainDataSourceId": "dataSource_20"
         }
       ]
     },
@@ -14867,6 +14842,16 @@
         "staticUrl": "https://hbmaps.hbrc.govt.nz/PropertyHazards/"
       },
       "id": "widget_621"
+    },
+    "widget_622": {
+      "uri": "widgets/updating-indicator/",
+      "version": "1.0.0",
+      "label": "View Updating Indicator 1",
+      "config": {},
+      "id": "widget_622",
+      "useMapWidgetIds": [
+        "widget_462"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -15044,6 +15029,48 @@
       "itemId": "efc73ff21209499195132fe21218b80c",
       "id": "dataSource_18",
       "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_19": {
+      "type": "WEB_MAP",
+      "itemId": "fe4318280e8f4bbcb93e82df76ff994d",
+      "id": "dataSource_19",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_20": {
+      "type": "WEB_MAP",
+      "itemId": "940c46950e3d4f41b40e6d3bc1782b45",
+      "id": "dataSource_20",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_21": {
+      "type": "WEB_MAP",
+      "itemId": "6b801c776fed43c29b4db45f31154043",
+      "id": "dataSource_21",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_22": {
+      "type": "WEB_MAP",
+      "itemId": "4112ae4f21f546cca9579be5ca0ed6c2",
+      "id": "dataSource_22",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_23": {
+      "type": "WEB_MAP",
+      "itemId": "ff78cc5440244347b9ea3db6291634c9",
+      "id": "dataSource_23",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_24": {
+      "type": "WEB_MAP",
+      "itemId": "bd610e930a724a539686c102eabe8e34",
+      "id": "dataSource_24",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
+    },
+    "dataSource_25": {
+      "type": "WEB_MAP",
+      "itemId": "24625c241a5e403bab42d451ff5afcf7",
+      "id": "dataSource_25",
+      "portalUrl": "https://eaglelabs.maps.arcgis.com"
     }
   },
   "messageConfigs": {},
@@ -15098,5 +15125,5 @@
     },
     "backgroundColor": "var(--light)"
   },
-  "timestamp": 1600947317400
+  "timestamp": 1600965705771
 }
